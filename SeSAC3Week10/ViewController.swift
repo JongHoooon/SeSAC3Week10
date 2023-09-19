@@ -10,7 +10,8 @@ import UIKit
 import Alamofire
 
 class ViewController: UIViewController {
-
+    
+    /// <#Description#>
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -52,17 +53,51 @@ class ViewController: UIViewController {
 
 //        NetworkBasic.shared.request(query: <#T##String#>, completion: <#T##(Result<Photo, Error>) -> Void#>)
         
-        Network.shared.request(
-            type: PhotoResult.self,
-            api: .photo(id: "Mc911VCPEk0"),
-            completion: { result in
-                switch result {
-                case let .success(success):
-                    dump(success)
-                case let .failure(failure):
-                    print(failure.errorDescription)
-                }
-            })
+//        Network.shared.request(
+//            type: PhotoResult.self,
+//            api: .photo(id: "Mc911VCPEk0"),
+//            completion: { result in
+//                switch result {
+//                case let .success(success):
+//                    dump(success)
+//                case let .failure(failure):
+//                    print(failure.errorDescription)
+//                }
+//            })
+        
+//        Task {
+//            do {
+//               let beers = try await PunkManager.shared.punkRequest(of: [Beer].self, api: .getBeers)
+//                print(beers)
+//            } catch {
+//                print(error)
+//            }
+//        }
+        
+//        Task {
+//            do {
+//                let beer = try await PunkManager.shared.punkRequest(
+//                    of: [Beer].self,
+//                    api: .getSingleBeer(id: 1)
+//                )
+//                print(beer)
+//            } catch {
+//                print(error)
+//            }
+//        }
+        
+        Task {
+            do {
+                let beer = try await PunkManager.shared.punkRequest(
+                    of: [Beer].self,
+                    api: .getRandomBeer
+                )
+                print(beer)
+            } catch {
+                print(error)
+            }
+        }
+        
     }
 }
 

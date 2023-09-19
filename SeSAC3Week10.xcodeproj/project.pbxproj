@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED083D2F2AB9AAAC00C3ABEC /* PunkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED083D2E2AB9AAAC00C3ABEC /* PunkAPI.swift */; };
+		ED083D312AB9AEEB00C3ABEC /* PunkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED083D302AB9AEEB00C3ABEC /* PunkError.swift */; };
+		ED083D332AB9AFF600C3ABEC /* PunkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED083D322AB9AFF600C3ABEC /* PunkManager.swift */; };
+		ED083D352AB9B50700C3ABEC /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED083D342AB9B50700C3ABEC /* Beer.swift */; };
 		ED42511B2AB9293500704D6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42511A2AB9293500704D6D /* AppDelegate.swift */; };
 		ED42511D2AB9293500704D6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42511C2AB9293500704D6D /* SceneDelegate.swift */; };
 		ED42511F2AB9293500704D6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42511E2AB9293500704D6D /* ViewController.swift */; };
@@ -22,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED083D2E2AB9AAAC00C3ABEC /* PunkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPI.swift; sourceTree = "<group>"; };
+		ED083D302AB9AEEB00C3ABEC /* PunkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkError.swift; sourceTree = "<group>"; };
+		ED083D322AB9AFF600C3ABEC /* PunkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkManager.swift; sourceTree = "<group>"; };
+		ED083D342AB9B50700C3ABEC /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 		ED4251172AB9293500704D6D /* SeSAC3Week10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC3Week10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED42511A2AB9293500704D6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED42511C2AB9293500704D6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED083D2C2AB99A1300C3ABEC /* Punk */ = {
+			isa = PBXGroup;
+			children = (
+				ED083D2E2AB9AAAC00C3ABEC /* PunkAPI.swift */,
+				ED083D302AB9AEEB00C3ABEC /* PunkError.swift */,
+				ED083D322AB9AFF600C3ABEC /* PunkManager.swift */,
+				ED083D342AB9B50700C3ABEC /* Beer.swift */,
+			);
+			path = Punk;
+			sourceTree = "<group>";
+		};
 		ED42510E2AB9293500704D6D = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +87,7 @@
 		ED4251192AB9293500704D6D /* SeSAC3Week10 */ = {
 			isa = PBXGroup;
 			children = (
+				ED083D2C2AB99A1300C3ABEC /* Punk */,
 				ED4251372AB93CB600704D6D /* Network */,
 				ED42511A2AB9293500704D6D /* AppDelegate.swift */,
 				ED42511C2AB9293500704D6D /* SceneDelegate.swift */,
@@ -173,9 +193,13 @@
 			files = (
 				ED42511F2AB9293500704D6D /* ViewController.swift in Sources */,
 				ED42511B2AB9293500704D6D /* AppDelegate.swift in Sources */,
+				ED083D312AB9AEEB00C3ABEC /* PunkError.swift in Sources */,
 				EDC82A532AB9744300E64FE3 /* Network.swift in Sources */,
+				ED083D2F2AB9AAAC00C3ABEC /* PunkAPI.swift in Sources */,
 				ED9ADCF22AB9649C00C69D33 /* SeSACAPI.swift in Sources */,
 				ED4251392AB93CC000704D6D /* NetworkBasic.swift in Sources */,
+				ED083D352AB9B50700C3ABEC /* Beer.swift in Sources */,
+				ED083D332AB9AFF600C3ABEC /* PunkManager.swift in Sources */,
 				ED42511D2AB9293500704D6D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
