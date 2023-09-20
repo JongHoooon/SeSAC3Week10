@@ -22,6 +22,8 @@
 		ED4251362AB9298C00704D6D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = ED4251352AB9298C00704D6D /* Kingfisher */; };
 		ED4251392AB93CC000704D6D /* NetworkBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4251382AB93CC000704D6D /* NetworkBasic.swift */; };
 		ED9ADCF22AB9649C00C69D33 /* SeSACAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9ADCF12AB9649C00C69D33 /* SeSACAPI.swift */; };
+		EDBF3E252ABA763600B76BAB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF3E242ABA763600B76BAB /* Router.swift */; };
+		EDBF3E272ABA9A9300B76BAB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF3E262ABA9A9300B76BAB /* ViewModel.swift */; };
 		EDC82A532AB9744300E64FE3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC82A522AB9744300E64FE3 /* Network.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,8 @@
 		ED4251282AB9293600704D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED4251382AB93CC000704D6D /* NetworkBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBasic.swift; sourceTree = "<group>"; };
 		ED9ADCF12AB9649C00C69D33 /* SeSACAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACAPI.swift; sourceTree = "<group>"; };
+		EDBF3E242ABA763600B76BAB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		EDBF3E262ABA9A9300B76BAB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		EDC82A522AB9744300E64FE3 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +96,7 @@
 				ED42511A2AB9293500704D6D /* AppDelegate.swift */,
 				ED42511C2AB9293500704D6D /* SceneDelegate.swift */,
 				ED42511E2AB9293500704D6D /* ViewController.swift */,
+				EDBF3E262ABA9A9300B76BAB /* ViewModel.swift */,
 				ED4251202AB9293500704D6D /* Main.storyboard */,
 				ED4251232AB9293600704D6D /* Assets.xcassets */,
 				ED4251252AB9293600704D6D /* LaunchScreen.storyboard */,
@@ -106,6 +111,7 @@
 				ED4251382AB93CC000704D6D /* NetworkBasic.swift */,
 				EDC82A522AB9744300E64FE3 /* Network.swift */,
 				ED9ADCF12AB9649C00C69D33 /* SeSACAPI.swift */,
+				EDBF3E242ABA763600B76BAB /* Router.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -191,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDBF3E252ABA763600B76BAB /* Router.swift in Sources */,
 				ED42511F2AB9293500704D6D /* ViewController.swift in Sources */,
 				ED42511B2AB9293500704D6D /* AppDelegate.swift in Sources */,
 				ED083D312AB9AEEB00C3ABEC /* PunkError.swift in Sources */,
@@ -200,6 +207,7 @@
 				ED4251392AB93CC000704D6D /* NetworkBasic.swift in Sources */,
 				ED083D352AB9B50700C3ABEC /* Beer.swift in Sources */,
 				ED083D332AB9AFF600C3ABEC /* PunkManager.swift in Sources */,
+				EDBF3E272ABA9A9300B76BAB /* ViewModel.swift in Sources */,
 				ED42511D2AB9293500704D6D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
