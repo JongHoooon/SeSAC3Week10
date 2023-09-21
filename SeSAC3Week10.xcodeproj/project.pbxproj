@@ -24,6 +24,7 @@
 		ED9ADCF22AB9649C00C69D33 /* SeSACAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9ADCF12AB9649C00C69D33 /* SeSACAPI.swift */; };
 		EDBF3E252ABA763600B76BAB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF3E242ABA763600B76BAB /* Router.swift */; };
 		EDBF3E272ABA9A9300B76BAB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF3E262ABA9A9300B76BAB /* ViewModel.swift */; };
+		EDBF3E292ABB516A00B76BAB /* PunkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF3E282ABB516A00B76BAB /* PunkViewModel.swift */; };
 		EDC82A532AB9744300E64FE3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC82A522AB9744300E64FE3 /* Network.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		ED9ADCF12AB9649C00C69D33 /* SeSACAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACAPI.swift; sourceTree = "<group>"; };
 		EDBF3E242ABA763600B76BAB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		EDBF3E262ABA9A9300B76BAB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		EDBF3E282ABB516A00B76BAB /* PunkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkViewModel.swift; sourceTree = "<group>"; };
 		EDC82A522AB9744300E64FE3 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 				ED083D2E2AB9AAAC00C3ABEC /* PunkAPI.swift */,
 				ED083D302AB9AEEB00C3ABEC /* PunkError.swift */,
 				ED083D322AB9AFF600C3ABEC /* PunkManager.swift */,
+				EDBF3E282ABB516A00B76BAB /* PunkViewModel.swift */,
 				ED083D342AB9B50700C3ABEC /* Beer.swift */,
 			);
 			path = Punk;
@@ -202,6 +205,7 @@
 				ED42511B2AB9293500704D6D /* AppDelegate.swift in Sources */,
 				ED083D312AB9AEEB00C3ABEC /* PunkError.swift in Sources */,
 				EDC82A532AB9744300E64FE3 /* Network.swift in Sources */,
+				EDBF3E292ABB516A00B76BAB /* PunkViewModel.swift in Sources */,
 				ED083D2F2AB9AAAC00C3ABEC /* PunkAPI.swift in Sources */,
 				ED9ADCF22AB9649C00C69D33 /* SeSACAPI.swift in Sources */,
 				ED4251392AB93CC000704D6D /* NetworkBasic.swift in Sources */,
